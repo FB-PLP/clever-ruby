@@ -19,9 +19,8 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(/^(test|spec|features)\//)
   gem.require_paths = ['lib']
 
-  gem.add_runtime_dependency 'multi_json',    '~> 1.1'
-  gem.add_runtime_dependency 'rest-client',   '~> 1.6.7'
-
+  gem.add_runtime_dependency     'multi_json',    '~> 1.10'
+  gem.add_runtime_dependency     'rest-client',   '~> 1.8.0'
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'minitest',      '~> 5.4.1'
   gem.add_development_dependency 'yard',          '~> 0.8.7'
